@@ -1,0 +1,14 @@
+[33mc46c7a7[m[33m ([m[1;36mHEAD -> [m[1;32mclean-code-s1e1[m[33m)[m refactor: mnemonic symbols are not used in html files
+[33m4b3af9b[m refactor: amended quotation marks from html-and-css
+[33m349dfe6[m refactor: general regulation html/css margins
+[33m79ac9b2[m refactor: implement use HTML5
+[33m395e627[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Update screenshot in Read.me
+[33mda70ba7[m fix: Add lost class for input-element
+[33m617bd00[m refactor: Remove redundant css-rules
+[33m4f5fffa[m fix: Styles for new task and remove text for Delete-button
+[33m91cdced[m Merge branch 'master' of github.com:ViktoryiaYatskova/clean-code-s1e1
+[33ma38cd58[m fix: Fix task row layout
+[33m98ef54f[m Merge pull request #1 from chlkvnck/patch-1
+[33m1889535[m fix: markdown markup
+[33m7425cec[m New README
+[33m6cbfd15[m Add project files
