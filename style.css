@@ -37,6 +37,11 @@ body {
     flex-grow: 1;
 }
 
+.btn-check {
+    order: 1;
+    display: block;
+}
+
 .task-row-wrapper {
     display: flex;
 }
