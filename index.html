@@ -11,48 +11,48 @@
     <title>Todo App</title>
 </head>
 
-<body>
-    <section>
-        <div class="aaa">
-            <img src="./eisenhower-matrix.jpg" alt="Prioritization matrix">
-            <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+<body class="body">
+    <section class="about">
+        <div class="about__container">
+            <img src="./eisenhower-matrix.jpg" alt="Prioritization matrix" class="info-image">
+            <a class="info-more" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
         </div>
     </section>
-    <section>
-        <form action="#">
-            <div class="centered-main-page-element">
-                <p id="topSectionForAddingElementToList">
-                    <label for="new-task">Add Item</label>
-                <div class="task-row-wrapper">
-                    <input id="new-task" class="task" type="text">
-                    <button type="submit">Add</button>
+    <section class="todo">
+        <form action="#" class="todo-form">
+            <div class="todo__container">
+                <div class="created-new-todo">
+                    <label for="new-task" class="title-item add-item">Add Item</label>
+                    <div class="task-row-wrapper">
+                        <input class="todo-input task new-task" type="text">
+                        <button class="button" type="submit">Add</button>
+                    </div>
                 </div>
-                </p>
-                <h3>Todo</h3>
-                <ul id="incompleteTasks">
-                    <li>
-                        <input type="checkbox" class="input">
-                        <label class="task input" for="todo-item-1">Pay Bills</label>
-                        <input type="text" class="task" id="todo-item-1">
-                        <button class="edit" type="submit">Edit</button>
-                        <button class="delete" type="reset"><img src="./remove.svg" alt="close task button"></button>
+                <h3 class="title-item">Todo</h3>
+                <ul class="todo-list list-incomplete">
+                    <li class="todo-item">
+                        <input type="checkbox" class="togo-checkbox">
+                        <label class="todo-label task" for="todo-item-1">Pay Bills</label>
+                        <input type="text" class="todo-input task" id="todo-item-1">
+                        <button class="button edit" type="submit">Edit</button>
+                        <button class="button delete" type="reset"><img class="btn-delete" src="./remove.svg" alt="close task button"></button>
                     </li>
-                    <li class="editMode">
-                        <input type="checkbox">
-                        <label for="go-shopping" class="task">Go Shopping</label>
-                        <input type="text" value="Go Shopping" class="task" id="go-shopping">
-                        <button class="edit" type="submit">Save</button>
-                        <button class="delete" type="reset"><img src="./remove.svg" alt="close task button"></button>
+                    <li class="todo-item editMode">
+                        <input type="checkbox" class="togo-checkbox">
+                        <label for="go-shopping" class="todo-label task">Go Shopping</label>
+                        <input type="text" value="Go Shopping" class="todo-input task" id="go-shopping">
+                        <button class="button edit" type="submit">Save</button>
+                        <button class="button delete" type="reset"><img class="btn-delete" src="./remove.svg" alt="close task button"></button>
                     </li>
                 </ul>
-                <h3>Completed</h3>
-                <ul id="completed-tasks">
-                    <li>
-                        <input type="checkbox" checked>
-                        <label class="task" for="completed-item">See the Doctor</label>
-                        <input type="text" class="task" id="completed-item">
-                        <button class="edit" type="submit">Edit</button>
-                        <button class="delete" type="reset"><img src="./remove.svg" alt="close task button"></button>
+                <h3 class="title-item">Completed</h3>
+                <ul class="todo-list list-completed">
+                    <li class="todo-item completed">
+                        <input type="checkbox"  class="togo-checkbox" checked>
+                        <label class="todo-label task item-welldone" for="completed-item">See the Doctor</label>
+                        <input type="text" class="todo-input task" id="completed-item">
+                        <button class="button edit" type="submit">Edit</button>
+                        <button class="button delete" type="reset"><img class="btn-delete" src="./remove.svg" alt="close task button"></button>
                     </li>
                 </ul>
             </div>
