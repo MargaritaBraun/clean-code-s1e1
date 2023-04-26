@@ -11,10 +11,13 @@
     display: block;
     text-align: right;
 }
+
  @media (max-width:768px) {
+
     .about__container {
         text-align: center;
     }
+
  }
 
 .info-image {
